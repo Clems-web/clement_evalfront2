@@ -7,8 +7,9 @@
     width: 70%;
     height: 60rem;
     margin-left: 15%;
-    border: 1px solid black;
+    border: 7px solid lightgray;
     position: relative;
+    box-shadow: 0 0 9px 7px lightgray;
 }
 #brad {
     width: 40%;
