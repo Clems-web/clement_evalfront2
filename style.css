@@ -96,9 +96,6 @@ a {
     height: 100%;
 }
 @media screen and (max-width: 1500px) {
-    .inbrad {
-        margin: auto;
-    }
     .inbrad i {
         font-size: 1.5rem;
     }
@@ -121,9 +118,33 @@ a {
     }
     .square, #brad {
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     #imagepk {
         display: none;
     }
+    .inbrad {
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
 }
 
+@media screen and (max-width: 350px) {
+    #cadreparent {
+        border: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .inbrad {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        padding: 0;
+    }
+    .square, #brad {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
