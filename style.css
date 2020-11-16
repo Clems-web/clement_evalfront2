@@ -9,7 +9,6 @@
     margin-left: 15%;
     border: 7px solid lightgray;
     position: relative;
-    box-shadow: 0 0 9px 7px lightgray;
 }
 #brad {
     width: 40%;
@@ -109,6 +108,22 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #cadreparent {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .square, #brad {
+        width: 100%;
+    }
+    #imagepk {
+        display: none;
+    }
 }
 
